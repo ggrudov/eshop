@@ -1,7 +1,121 @@
 .taxonomy-root {
-	color: red;
+	color: #1AB394;
 }
 
-.panel-body.text-center.product-body {
-	background-color: black;
+div#panel-body.text-center.product-body {
+	background-color: white;
+}
+
+a.list-group-item {
+	color: black;
+}
+
+figure#logo {
+
+}
+
+#spree-header #header {
+	background: #333;
+}
+
+div#spree-header {
+	background-color: white;
+	background: #333;
+}
+
+
+
+.panel-default {
+	border-color:black;
+}
+
+.panel-default:hover {
+	border-color:#cccccc;
+}
+ .header_phone {
+ 	position: absolute;
+ 	top:0;
+ 	right:220px;
+ 	font-weight: bold;
+ 	font-size:14px;
+ 	color: white;
+ 	padding-bottom:10px;
+ 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+ }
+ 	
+
+
+.panel .panel-default {
+  background-color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: relative;
+  margin-bottom: 30px;
+  border: 1px solid #eee;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.panel .panel-default .offer-lablel {
+  padding: 4px 10px;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  background-color: red;
+  color: #fff;
+  z-index: 99;
+}
+.panel .panel-default .out-of-stock img {
+  opacity: 0.4;
+}
+.panel .panel-default .out-stock-label {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  padding: 3px 6px;
+  background-color: #f5f5f5;
+  display: inline-block;
+  z-index: 2;
+}
+.panel .panel-default .label-new {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  padding: 3px 6px;
+  background-color: #1ab394;
+  display: inline-block;
+  color: #fff;
+  z-index: 2;
+}
+.panel .panel-default img {
+  display: block;
+  margin: 0 auto;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.panel .panel-default img:hover {
+  -moz-transform: scale3d(0.95, 0.95, 0.95);
+  -o-transform: scale3d(0.95, 0.95, 0.95);
+  -ms-transform: scale3d(0.95, 0.95, 0.95);
+  -webkit-transform: scale3d(0.95, 0.95, 0.95);
+  transform: scale3d(0.95, 0.95, 0.95);
+}
+.panel .panel-default .title {
+  padding-top: 25px;
+}
+.panel .panel-default .title h5 {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-family: "Arimo", sans-serif;
+  color: #333;
+}
+.panel .panel-default :hover {
+  border-color: #1ab394;
 }
